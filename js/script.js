@@ -2,6 +2,8 @@
 
 document.addEventListener("DOMContentLoaded", function () {
   // open
+
+  const menu = document.querySelectorAll(".navbar-menu");
   // Adjust the interval as needed
   const slides = document.querySelector(".slides");
   const slide = document.querySelector(".slide");
