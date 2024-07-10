@@ -31,11 +31,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <style>
-      /* * {
-        border: 1px solid red !important;
-      } */
-    </style>
   </head>
 
   <body
@@ -254,8 +249,24 @@
       </header>
       <main>
         <section
-          class="min-h-[calc(100vh-64px)] hero-section lg:px-32 lg:pb-32 swiper mySwiper"
+          class="min-h-[calc(100vh-64px)] hero-section lg:px-32 lg:pb-32 swiper mySwiper relative"
         >
+          <div
+            class="absolute left-10 my-auto flex flex-col items-center h-full gap-6 py-10"
+          >
+            <div class="h-full w-[2px] bg-[#C59D5F]"></div>
+            <i class="fa-brands fa-facebook-f" style="color: #c59d5f"></i>
+            <i class="fa-brands fa-twitter" style="color: #c59d5f"></i>
+            <i class="fa-brands fa-linkedin-in" style="color: #c59d5f"></i>
+            <div class="h-full w-[2px] bg-[#C59D5F]"></div>
+          </div>
+          <div
+            class="absolute right-10 my-auto flex flex-col items-center h-full gap-6 py-10"
+          >
+            <div class="h-full w-[2px] bg-[#C59D5F]"></div>
+            <img src="./images/Book A Table.png" alt="" />
+            <div class="h-full w-[2px] bg-[#C59D5F]"></div>
+          </div>
           <div class="swiper-wrapper">
             <div
               class="hero-banner relative h-[calc(100vh-178px)] lg:flex justify-center items-center gap-10 swiper-slide"
