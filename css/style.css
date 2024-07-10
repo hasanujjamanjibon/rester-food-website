@@ -19,8 +19,7 @@
 .slider {
   position: relative;
   overflow: hidden;
-  width: 80%;
-  max-width: 1290px;
+  max-width: 1180px;
 }
 
 .slide {
@@ -47,7 +46,6 @@
   transform: translateY(-50%);
   color: white;
   border: none;
-  padding: 10px;
   cursor: pointer;
   z-index: 10;
 }
